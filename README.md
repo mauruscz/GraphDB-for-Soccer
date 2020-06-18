@@ -2,7 +2,7 @@
 
 ### Document Description:
 
-The repository is contains the following documents:
+The repository contains the following documents:
 
 * In [data]() are contained three `.csv` files. `top250-00-19` and `transfers-all.csv` are the 2 datasets that will be integrated. `transfers.csv` is the result of integrating both datasets.
 
@@ -10,15 +10,15 @@ The repository is contains the following documents:
 
 * In [results]() is stored the `.csv` files obtained when executing the queries and algorithms mentioned in the report.
 
-* [Integration.R]() contains the code tat integrates both data sources into one, generates the resulting `.csv`, and stores it to the data folder.
+* [Integration.R]() contains the code that integrates both data sources into one, generates the resulting `.csv`, and stores it to the data folder.
 
 * [GraphCreationQueries.ipynb]() is a jupyter notebook that will create all the nodes and edges in the Neo4j graph.
 
 * [Queries]() is the document that contains the queries and algorithms explained in the report
 
-* [ProjectStatement]() is the statement of the project created by the OD professors.
+* [ProjectStatement]() is the statement of the project created by the OD teachers.
 
-* [Report]() is the final report delivered by the students in learnSQL.
+* [Report]() is the final report delivered by the students in LearnSQL.
 
 ### Execution process:
 

@@ -4,7 +4,7 @@
 
 The repository contains the following documents:
 
-* In [data]() are contained three `.csv` files. `top250-00-19` and `transfers-all.csv` are the 2 datasets that will be integrated. `transfers.csv` is the result of integrating both datasets.
+* In [data]() there are three `.csv` files. `top250-00-19` and `transfers-all.csv` are the 2 datasets that will be integrated. `transfers.csv` is the result of integrating both datasets.
 
 * In [imgs]() are contained the models included in the report, and the draw.io document to create them.
 
@@ -35,7 +35,22 @@ In order to execute the proof of concept, you have to follow the next steps:
 
  5. Once created the graph execute the queries contained in the [Queries]() document in the Neo4j console. He have already executed the queries and algorithms, and the results are contained in the folder [results]()
 
-
+### Configuration:
+To execute the Python Notebook:
+ 1. Make sure to have `py2neo` installed (pip install py2neo).
+ 2. Introduce the graph credentials in the first notebook cell.
+ 3. Start Neo4j.
+ 4. Start a graph project.
+ 4. Run the notebook code.
+ 
+To execute the algorithms offered by Neo4j:
+ 1. Locate the plugins folder and download the jar file corresponding to your Neo4j version. For instance,
+ [graph-algorithms-algo-3.5.4.0.jar](https://github.com/neo4j-contrib/neo4j-graph-algorithms/releases/download/3.5.4.0/graph-algorithms-algo-3.5.4.0.jar).
+ 2. Locate the neo4j.conf file and add the following line:
+    ```sh
+    dbms.security.procedures.unrestricted=algo.*
+    ```
+ 3. Restart Neo4j.
 
 ### Authors:
  * Giovanni Mauro

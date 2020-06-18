@@ -14,7 +14,7 @@ The repository contains the following documents:
 
 * [GraphCreationQueries.ipynb](https://github.com/oriolborrellroig/OD-FinalProject/blob/master/GraphCreationQueries.ipynb) is a jupyter notebook that will create all the nodes and edges in the Neo4j graph.
 
-* [Queries.ipynb](https://github.com/oriolborrellroig/OD-FinalProject/blob/master/Queries.ipynb) is a jupyter notebook that contains the queries and algorithms explained in the report.
+* [QueriesAlgorithms.ipynb](https://github.com/oriolborrellroig/OD-FinalProject/blob/master/QueriesAlgorithms.ipynb) is a jupyter notebook that contains the queries and algorithms explained in the report.
 
 * [ProjectStatement](https://github.com/oriolborrellroig/OD-FinalProject/blob/master/ProjectStatement.pdf) is the statement of the project created by the OD teachers.
 
@@ -50,7 +50,7 @@ In order to execute the proof of concept, you have to follow the next steps:
 
  4. In order to create the graph, open the [GraphCreationQueries.ipynb](https://github.com/oriolborrellroig/OD-FinalProject/blob/master/GraphCreationQueries.ipynb) and execute all the cells in order. To execute the cells you will to have install `py2neo`.
 
- 5. Once created the graph execute the queries contained in the [Queries](https://github.com/oriolborrellroig/OD-FinalProject/blob/master/Queries.ipynb) document in the Neo4j console. He have already executed the queries and algorithms, and the results are contained in the folder [results](https://github.com/oriolborrellroig/OD-FinalProject/tree/master/results)
+ 5. Once created the graph execute the queries contained in the [QueriesAlgorithms](https://github.com/oriolborrellroig/OD-FinalProject/blob/master/QueriesAlgorithms.ipynb) document in the Neo4j console. He have already executed the queries and algorithms, and the results are contained in the folder [results](https://github.com/oriolborrellroig/OD-FinalProject/tree/master/results)
 
 ### Authors:
  * Giovanni Mauro

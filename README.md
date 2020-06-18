@@ -4,7 +4,7 @@
 
 The repository contains the following documents:
 
-* In [data]() are contained three `.csv` files. `top250-00-19` and `transfers-all.csv` are the 2 datasets that will be integrated. `transfers.csv` is the result of integrating both datasets.
+* In [data]() there are three `.csv` files. `top250-00-19` and `transfers-all.csv` are the 2 datasets that will be integrated. `transfers.csv` is the result of integrating both datasets.
 
 * In [imgs]() are contained the models included in the report, and the draw.io document to create them.
 

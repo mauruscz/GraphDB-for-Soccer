@@ -38,14 +38,18 @@ In order to execute the proof of concept, you have to follow the next steps:
 ### Configuration:
 To execute the Python Notebook:
  1. Make sure to have `py2neo` installed (pip install py2neo).
- 1. Start Neo4j.
  2. Introduce the graph credentials in the first notebook cell.
- 3. Run the code.
+ 3. Start Neo4j.
+ 4. Start a graph project.
+ 4. Run the notebook code.
  
 To execute the algorithms offered by Neo4j:
- 1. Locate the plugins folder and download the jar file corresponding to your Neo4j version, e.g., https://github.com/neo4j-contrib/neo4j-graph-algorithms/releases/download/3.5.4.0/graph-algorithms-algo-3.5.4.0.jar.
+ 1. Locate the plugins folder and download the jar file corresponding to your Neo4j version. For instance,
+ https://github.com/neo4j-contrib/neo4j-graph-algorithms/releases/download/3.5.4.0/graph-algorithms-algo-3.5.4.0.jar.
  2. Locate the neo4j.conf file and add the following line:
-dbms.security.procedures.unrestricted=algo.*
+ ```sh
+ dbms.security.procedures.unrestricted=algo.*
+ ```
  3. Restart Neo4j.
 
 ### Authors:

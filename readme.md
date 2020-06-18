@@ -29,7 +29,7 @@ In order to execute the proof of concept, you have to follow the next steps:
     ```
  2. If you want to generate the integration process, open the [Integration.R]() file run all the lines. The output will be stored in In [data/transfers.csv](). However, the `.csv` document is already generated and the result must not differ.
 
- 3. Copy the [data/transfers.csv]() into the Neo4j input folder.
+ 3. Copy the [data/transfers.csv]() into the Neo4j 'import' folder.
 
  4. In order to create the graph, open the [GraphCreationQueries.ipynb]() and execute all the cells in order. To execute the cells you will to have install `py2neo`.
 

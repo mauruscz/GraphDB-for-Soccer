@@ -35,7 +35,17 @@ In order to execute the proof of concept, you have to follow the next steps:
 
  5. Once created the graph execute the queries contained in the [Queries]() document in the Neo4j console. He have already executed the queries and algorithms, and the results are contained in the folder [results]()
 
-
+### Configuration:
+To execute the Python Notebook:
+ 1. Start Neo4j.
+ 2. Introduce the graph credentials in the first cell.
+ 3. Run the code.
+ 
+To execute the algorithms offered by Neo4j:
+ 1. Locate the plugins folder and download the jar file corresponding to your Neo4j version, e.g., https://github.com/neo4j-contrib/neo4j-graph-algorithms/releases/download/3.5.4.0/graph-algorithms-algo-3.5.4.0.jar.
+ 2. Locate the neo4j.conf file and add the following line:
+dbms.security.procedures.unrestricted=algo.*
+ 3. Restart Neo4j.
 
 ### Authors:
  * Giovanni Mauro

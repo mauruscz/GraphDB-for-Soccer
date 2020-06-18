@@ -46,7 +46,6 @@ To execute the Python Notebook:
 To execute the algorithms offered by Neo4j:
  1. Locate the plugins folder and download the jar file corresponding to your Neo4j version. For instance,
  [graph-algorithms-algo-3.5.4.0.jar](https://github.com/neo4j-contrib/neo4j-graph-algorithms/releases/download/3.5.4.0/graph-algorithms-algo-3.5.4.0.jar).
- 
  2. Locate the neo4j.conf file and add the following line:
     ```sh
     dbms.security.procedures.unrestricted=algo.*

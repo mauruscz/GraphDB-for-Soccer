@@ -37,8 +37,9 @@ In order to execute the proof of concept, you have to follow the next steps:
 
 ### Configuration:
 To execute the Python Notebook:
+ 1. Make sure to have `py2neo` installed (pip install py2neo).
  1. Start Neo4j.
- 2. Introduce the graph credentials in the first cell.
+ 2. Introduce the graph credentials in the first notebook cell.
  3. Run the code.
  
 To execute the algorithms offered by Neo4j:

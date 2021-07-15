@@ -1,4 +1,10 @@
-﻿## OD -- OPEN DATA
+﻿## GRAPH DB FOR SOCCER
+
+### Authors:
+ * Giovanni Mauro
+ * Anass Benali
+ * Oriol Borrell
+
 
 ### Document Description:
 
@@ -51,9 +57,4 @@ In order to execute the proof of concept, you have to follow the next steps:
  4. In order to create the graph, open the [GraphCreationQueries.ipynb](https://github.com/oriolborrellroig/OD-FinalProject/blob/master/GraphCreationQueries.ipynb) and execute all the cells in order. To execute the cells you will to have install `py2neo`.
 
  5. Once created the graph execute the queries contained in the [QueriesAlgorithms](https://github.com/oriolborrellroig/OD-FinalProject/blob/master/QueriesAlgorithms.ipynb) document in the Neo4j console. He have already executed the queries and algorithms, and the results are contained in the folder [results](https://github.com/oriolborrellroig/OD-FinalProject/tree/master/results)
-
-### Authors:
- * Giovanni Mauro
- * Anass Benali
- * Oriol Borrell
 
